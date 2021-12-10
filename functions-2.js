@@ -1,3 +1,9 @@
+// PerScholas Assignment: W3-D3-Javascript-Functions
+// Date: 12-09-2021
+// Dev: Matthew Jenifer 
+// Contact: matthewjenifer@brownbuddha.biz
+// EarCandy: https://tinyurl.com/y5k8lrw9
+
 /* 
 1. Define a function maxOfTwoNumbers that takes two numbers as arguments and returns the largest of them. Use the if-then-else construct available in Javascript. Do some googling to figure this out if you forget how conditionals work.
 */
@@ -122,3 +128,12 @@ filterLongWords = (arr2) => {
 
 console.log(filterLongWords())
 
+
+// === I WOULD LIKE HELP WITH THE BONUS QUESTIONS IF YOU'RE READING THIS. THERE IS STILL SOMETHING TO HOW FUNCTIONS WORK THAT EVADES MY GRASP.
+
+// Bonus
+
+// Add a method reverseString (from question 6) to the object String so that...
+// Write a function that takes a string as argument and returns an object where...
+
+//(LINK: https://perscholas.instructure.com/courses/864/assignments/142660)
