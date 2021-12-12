@@ -136,4 +136,22 @@ console.log(filterLongWords())
 // Add a method reverseString (from question 6) to the object String so that...
 // Write a function that takes a string as argument and returns an object where...
 
-//(LINK: https://perscholas.instructure.com/courses/864/assignments/142660)
+var string = "per scholas";
+
+function getFrequency() {
+    var freq = {};
+    for (var i=0; i<string.length;i++) {
+        var character = string.charAt(i);
+        if (freq[character]) {
+           freq[character]++;
+        } else {
+           freq[character] = 1;
+        }
+    }
+
+    return freq;
+};
+
+console.log(getFrequency(string))
+
+
